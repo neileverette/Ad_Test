@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-color: #666;
+	background-image: url(images/bowie.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+body,html{
+  	height: 100%;
+	width:100%;
+  	margin:0px;
+  	font-family:"Lato";
+	font-weight: 100;
+	color: #FFF;
+}
+
+p{
+    color: white;
+    font-family: lato;
+    font-weight: 100;
+    line-height: 125%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+
+.bar,.colorbar{
+	width: 97%;
+	margin-left: auto;
+	margin-right: auto;
+		
+}
+
+.bar{
+	margin-top: 30px;
+	height: 35px;
+	background: rgba(255, 255, 255, .1);
+}
+
+iframe{
+    width: 100%;
+    height: 700px;
+    margin-top: 5%;
+}
+
+.small_text{
+    font-size: 1.2em;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 70%;
+    line-height: 1.4em;
+    border: 1px solid red;
+}
+
+.button{
+    border: 1px solid red;
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.large_text{
+    font-size: 3em;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+
+.text{
+    position:relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: auto;
+    top: 47%;
+}
+
+.frame{
+    width: 100%;
+    height: 50%;
+    background-image: url(images/bg1.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+    box-shadow:  2px 2px 5px 2px rgba(0, 0, 0, .3);
+    margin-top: 15%;
+    padding: 30px;
+
+}
+
+.menu, .menu2{
+    height: 410px;
+    width: 250px;
+    position: absolute;
+    left: 300px;
+    top: 172px;
+    background-color: rgba(0, 0, 0, 0.80);
+    display: none;
+}
+
+.menu2{
+    left: 560px;
+}
+
+.menu, .menu2{
+	box-shadow:  2px 2px 3px 2px rgba(0, 0, 0, .3);
+}
+
+.menu li, .menu2 li{
+    line-height: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    text-indent: 20px;
+}
+
+.menu li:last-child, .menu2 li:last-child{
+        border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+.menu li:nth-child(2),.menu2 li:nth-child(3){
+	border: 1px solid #3f3f3f;
+	background-color: rgba(78, 78, 78, 0.7);
+}
+
+.arrow-left {
+	margin-left: -10px;
+	margin-top: -357px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 10px solid rgba(0, 0, 0, 0.80);
+	border-bottom: 10px solid transparent;
+}
+
+.menu .arrow-left {
+	margin-top: -235px;	
+}
+
+li{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.tipContainer{
+    padding: 10px;
+    display: inline;
+    line-height: 1.5em;
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    left: 300px;
+    top: 270px;
+    display: none;
+}
+
+.tip{
+    background-color: rgba(0, 0, 0, 0.80);
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    box-shadow:  2px 2px 3px 2px rgba(0, 0, 0, .3);
+    
+}
+
+.tipButton{
+    float: left;
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    height: 2em;
+    line-height: 2em;
+    font-size: .8em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.tipButton:last-child{
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.tipContainer .arrow-left {
+	margin-top: -40px;
+    margin-left: -10px;
+}

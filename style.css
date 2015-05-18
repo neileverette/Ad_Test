@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-color: #666;
+	background-image: url(images/ad3.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+body,html{
+  	height: 100%;
+	width:100%;
+  	margin:0px;
+  	font-family:"Lato";
+	font-weight: 100;
+	color: #FFF;
+}
+
+p{
+    color: white;
+    font-family: lato;
+    font-weight: 100;
+    line-height: 125%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+}
+
+img{
+    width: 100%;
+}
+
+#blur{
+ -webkit-filter: blur(7px); 
+
+}
+
+.ad1{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+
+.ad2{
+    float: right;
+	position:absolute;
+    width: 272px;
+    height: 272px;
+	top:35%;
+	left:calc(95% - 285px);
+    border: 8px solid rgba(0, 0, 0, .8);
+    background-image: url(images/ad3.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+
+}
+.background{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.bar,.colorbar{
+	width: 97%;
+	margin-left: auto;
+	margin-right: auto;
+		
+}
+
+.bar{
+	margin-top: 30px;
+	height: 35px;
+	background: rgba(255, 255, 255, .1);
+}
+
+.button{
+	background: rgba(0, 0, 0, .5);
+	float: left;
+	height: 50px;
+	width: 50px;
+	border-radius: 100px;
+	margin-right: 20px;
+}
+.buttonContainer{
+	left:10%;
+	height: 50px;
+	width: 90%;
+	margin-top: 2%;
+}
+
+.colorbar{
+	height: 4px;
+	background:-webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,50,50,1)),color-stop(14%,rgba(242,252,50,1)), color-stop(28%,rgba(61,255,50,1)), color-stop(43%,rgba(49,249,243,1)), color-stop(61%,rgba(49,53,249,1)), color-stop(83%,rgba(252,50,252,1)), color-stop(100%,rgba(252,0,4,1))); 
+	
+}
+
+.gradient{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,05) 100%);
+}
+
+.small_text{
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+.large_text{
+    font-size: 3em;
+    font-weight: 100;
+    margin-left: -5px;
+}
+
+.text{
+    position:absolute;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: auto;
+    top: 47%;
+}
+
+.tuner{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, .3);;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    box-shadow: inset 0px 0px 40px 10px rgba(0, 0, 0, .2);
+    box-shadow:  2px 2px 5px 2px rgba(0, 0, 0, .3);
+    margin-top: 30px;
+}
+
+.menu, .menu2{
+    height: 410px;
+    width: 250px;
+    position: absolute;
+    left: 300px;
+    top: 172px;
+    background-color: rgba(0, 0, 0, 0.80);
+    display: none;
+}
+
+.menu2{
+    left: 560px;
+}
+
+.menu, .menu2{
+	box-shadow:  2px 2px 3px 2px rgba(0, 0, 0, .3);
+}
+
+.menu li, .menu2 li{
+    line-height: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    text-indent: 20px;
+}
+
+.menu li:last-child, .menu2 li:last-child{
+        border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+.menu li:nth-child(2),.menu2 li:nth-child(3){
+	border: 1px solid #3f3f3f;
+	background-color: rgba(78, 78, 78, 0.7);
+}
+
+.arrow-left {
+	margin-left: -10px;
+	margin-top: -357px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 10px solid rgba(0, 0, 0, 0.80);
+	border-bottom: 10px solid transparent;
+}
+
+.menu .arrow-left {
+	margin-top: -235px;	
+}
+
+li{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.tipContainer{
+    padding: 10px;
+    display: inline;
+    line-height: 1.5em;
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    left: 300px;
+    top: 270px;
+    display: none;
+}
+
+.tip{
+    background-color: rgba(0, 0, 0, 0.80);
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    box-shadow:  2px 2px 3px 2px rgba(0, 0, 0, .3);
+    
+}
+
+.tipButton{
+    float: left;
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    height: 2em;
+    line-height: 2em;
+    font-size: .8em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.tipButton:last-child{
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.tipContainer .arrow-left {
+	margin-top: -40px;
+    margin-left: -10px;
+}
